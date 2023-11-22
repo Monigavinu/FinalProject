@@ -20,16 +20,13 @@ public class PatientDetails {
 	private Long patEmg;
 	private String patGend;
 	private String patEmail;
-	
 	public PatientDetails() {
 		super();
+		// TODO Auto-generated constructor stub
 	}
-	
 	public PatientDetails(int patId, String patFName, String patAdd, String patBldGrp, Date patDob, int patAge,
 			Long patMob, Long patEmg, String patGend, String patEmail) {
-		
 		super();
-		
 		this.patId = patId;
 		this.patFName = patFName;
 		this.patAdd = patAdd;
@@ -41,18 +38,17 @@ public class PatientDetails {
 		this.patGend = patGend;
 		this.patEmail = patEmail;
 	}
-	
 	public int getPatId() {
 		return patId;
 	}
 	public void setPatId(int patId) {
 		this.patId = patId;
 	}
-	public String getPatFname() {
+	public String getPatFName() {
 		return patFName;
 	}
-	public void setPatFname(String patFname) {
-		this.patFName = patFname;
+	public void setPatFName(String patFName) {
+		this.patFName = patFName;
 	}
 	public String getPatAdd() {
 		return patAdd;
@@ -102,6 +98,7 @@ public class PatientDetails {
 	public void setPatEmail(String patEmail) {
 		this.patEmail = patEmail;
 	}
+	
 	
 	
 }

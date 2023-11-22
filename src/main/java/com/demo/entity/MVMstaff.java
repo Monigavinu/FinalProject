@@ -23,26 +23,25 @@ public class MVMstaff {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public MVMstaff( String stfFName, String stfGnd, Date stfDob, long stfMob, String stfAdd,
-			String stfDept, String stfQualif, int stfSal, String stfBldGrp, String stfEmail, String stfSpec,
-			String userId, String userPassword) {
+	public MVMstaff(String stfFName, String stfGnd, Date stfDob, long stfMob, String stfAdd, String stfDept,
+			String stfSpec, String stfQualif, Date stfJod, int stfSal, String stfBldGrp, String stfEmail, String userId,
+			String userPassword) {
 		super();
-		
 		this.stfFName = stfFName;
 		this.stfGnd = stfGnd;
 		this.stfDob = stfDob;
 		this.stfMob = stfMob;
 		this.stfAdd = stfAdd;
 		this.stfDept = stfDept;
+		this.stfSpec = stfSpec;
 		this.stfQualif = stfQualif;
+		this.stfJod = stfJod;
 		this.stfSal = stfSal;
 		this.stfBldGrp = stfBldGrp;
 		this.stfEmail = stfEmail;
-		this.stfSpec = stfSpec;
 		this.userId = userId;
 		this.userPassword = userPassword;
 	}
-	
 	public String getStfFName() {
 		return stfFName;
 	}
@@ -79,11 +78,23 @@ public class MVMstaff {
 	public void setStfDept(String stfDept) {
 		this.stfDept = stfDept;
 	}
+	public String getStfSpec() {
+		return stfSpec;
+	}
+	public void setStfSpec(String stfSpec) {
+		this.stfSpec = stfSpec;
+	}
 	public String getStfQualif() {
 		return stfQualif;
 	}
 	public void setStfQualif(String stfQualif) {
 		this.stfQualif = stfQualif;
+	}
+	public Date getStfJod() {
+		return stfJod;
+	}
+	public void setStfJod(Date stfJod) {
+		this.stfJod = stfJod;
 	}
 	public int getStfSal() {
 		return stfSal;
@@ -103,12 +114,6 @@ public class MVMstaff {
 	public void setStfEmail(String stfEmail) {
 		this.stfEmail = stfEmail;
 	}
-	public String getStfSpec() {
-		return stfSpec;
-	}
-	public void setStfSpec(String stfSpec) {
-		this.stfSpec = stfSpec;
-	}
 	public String getUserId() {
 		return userId;
 	}
@@ -121,7 +126,7 @@ public class MVMstaff {
 	public void setUserPassword(String userPassword) {
 		this.userPassword = userPassword;
 	}
-	
-	
 
+	
+	
 }
